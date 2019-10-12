@@ -1,0 +1,47 @@
+h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar > li a {
+    text-align: center;
+    display:inline;
+    float: left;
+    padding: 8px 8px;
+    color: white;
+    background-color: gray;
+}
+
+ul.sidebar{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    margin-left: 0px;
+    margin-top: 100px; 
+    padding: 1px 16px; 
+    height:250px;
+}
+
+.sidebar li a { 
+    text-align: center;
+    display:block;
+    width: 100px;
+    padding: 8px 16px;
+    color: white;
+    background-color: gray;
+}
+
+li a:hover {
+    background: black;
+}
